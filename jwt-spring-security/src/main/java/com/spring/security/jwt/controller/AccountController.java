@@ -16,7 +16,7 @@ import com.spring.security.jwt.entity.Account;
 import com.spring.security.jwt.repository.AccountRepository;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("/api/users")
 public class AccountController {
 	

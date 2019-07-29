@@ -80,5 +80,6 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 		
 		response.setHeader(SecurityConstants.TOKEN_HEADER, SecurityConstants.TOKEN_PREFIX + token);
 		
+		
 	}
 }
